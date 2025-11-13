@@ -41,7 +41,3 @@ Using `--resume`, the script:
 - Copies checkpoints → *Machine B*  
 - Restarts training from the same batch
 
-### 🔹 Optional Preemption Simulation
-Trigger a fake pre-emption after N batches:
-```bash
-python train.py --simulate-preempt 300
